@@ -1,0 +1,27 @@
+(defcfg
+    linux-dev /dev/input/by-path/platform-i8042-serio-0-event-kbd
+)
+
+(deflocalkeys-linux
+    ß 219
+)
+
+(defsrc
+    caps 
+    spc s d f g j k l Semicolon Slash
+)
+
+(deflayer default
+    @caps 
+    spc s d f g j k l Semicolon Slash
+)
+
+(deflayer math
+    @caps 
+    RA-Minus S-Digit4 S-Digit8 RA-Digit7 S-Digit6 ArrowLeft k ArrowRight (macro Backquote Backquote) S-Slash
+)
+
+(defalias
+    caps (layer-while-held math)
+    \ RA-ß
+)
