@@ -13,15 +13,23 @@
 
 (deflayer default
     @caps 
-    spc s d f g j k l Semicolon Slash
+    spc 
+    s d f g j k l Semicolon Slash
 )
 
 (deflayer math
     @caps 
-    RA-Minus S-Digit4 S-Digit8 RA-Digit7 S-Digit6 ArrowLeft k ArrowRight (macro Backquote Backquote) S-Slash
+    @\ 
+    @$ @bra @cbra @& ArrowLeft k ArrowRight @^ @_
 )
 
 (defalias
     caps (layer-while-held math)
-    \ RA-ß
+    \ RA-Minus
+    $ S-Digit4
+    bra S-Digit8
+    cbra RA-Digit7
+    & S-Digit6
+    ^ (macro Backquote Backquote)
+    _ S-Slash
 )
