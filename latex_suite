@@ -195,4 +195,9 @@
 	{trigger: "maps", replacement: "\\mapsto", options: "mA"},
     {trigger: "forall", replacement: "\\forall ", options: "mA"},
 	{trigger: "esex", replacement: "\\exists ", options: "mA"},
+
+
+	// MISC
+
+	{trigger: "contrad", replacement: "\\unicode{x21af} ", options: "mA"},
 ]
