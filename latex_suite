@@ -174,7 +174,7 @@
 
 	// Mengen
 	
-	{trigger: "in", replacement: "\\in ", options: "mA"},
+	{trigger: "in ", replacement: "\\in", options: "mA"},
 	{trigger: "NN", replacement: "\\mathbb{N}", options: "mA"},
 	{trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: "QQ", replacement: "\\mathbb{Q}", options: "mA"},
