@@ -8,18 +8,22 @@
 
 (defsrc
     caps 
-    spc s d f g j k l Semicolon Slash
+    spc 
+    Digit0
+    s d f g j k l Semicolon Slash
 )
 
 (deflayer default
     @caps 
     spc 
+    Digit0
     s d f g j k l Semicolon Slash
 )
 
 (deflayer math
     @caps 
     @\ 
+    @=
     @$ @bra @cbra @& ArrowLeft k ArrowRight @^ @_
 )
 
@@ -32,4 +36,5 @@
     & S-Digit6
     ^ (macro Backquote Backquote)
     _ S-Slash
+    = S-Digit0
 )
