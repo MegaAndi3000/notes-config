@@ -173,8 +173,10 @@
 	
 
 	// Mengen
+
+	{trigger: "adset", replacement: "\\\{${0:x}: ${1:x} \\in ${2:\\mathbb{R}} $3\\\}", options: "mA"},
+	{trigger: "set", replacement: "\\\{$0\\\}", options: "mA"},
 	
-	{trigger: "in ", replacement: "\\in", options: "mA"},
 	{trigger: "NN", replacement: "\\mathbb{N}", options: "mA"},
 	{trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},
 	{trigger: "QQ", replacement: "\\mathbb{Q}", options: "mA"},
@@ -183,6 +185,17 @@
 	{trigger: "ZZ", replacement: "\\mathbb{Z}", options: "mA"},
 	{trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
 	{trigger: "HH", replacement: "\\mathcal{H}", options: "mA"},
+
+	{trigger: "in ", replacement: "\\in", options: "mA"},
+	{trigger: "empty", replacement: "\\emptyset", options: "mA"},
+	{trigger: "sub", replacement: "\\subseteq", options: "mA"},
+	{trigger: "truesub", replacement: "\\subset", options: "mA"},
+	{trigger: "mand", replacement: "\\cap", options: "mA"},
+	{trigger: "mor", replacement: "\\cup", options: "mA"},
+	{trigger: "mxor", replacement: "\\triangle", options: "mA"},
+	{trigger: "compl", replacement: "^\\complement", options: "mA"},
+	{trigger: "pot", replacement: "\\wp($0)", options: "mA"},
+	{trigger: "excl", replacement: "\\text{\\\\}", options: "mA"},
 
 
 	// Logik
