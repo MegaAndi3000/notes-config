@@ -198,6 +198,7 @@
 	{trigger: "compl", replacement: "^\\complement", options: "mA"},
 	{trigger: "pot", replacement: "\\wp($0)", options: "mA"},
 	{trigger: "excl", replacement: "\\text{\\\\}", options: "mA"},
+	{trigger: "times", replacement: "\\times", options: "mA"},
 
 
 	// Logik
