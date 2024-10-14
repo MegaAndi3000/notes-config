@@ -204,7 +204,7 @@
 	// Logik
 	
 	{trigger: "aeq", replacement: "\\Leftrightarrow ", options: "mA"},
-	{trigger: "impl", replacement: "\\implies", options: "mA"},
+	{trigger: "impl", replacement: "\\Rightarrow", options: "mA"},
 	{trigger: "land", replacement: "\\land", options: "mA"},
 	{trigger: "lor", replacement: "\\lor", options: "mA"},
 	{trigger: "neg", replacement: "\\neg", options: "mA"},
