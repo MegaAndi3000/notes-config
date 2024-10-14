@@ -191,7 +191,7 @@
 	{trigger: "in ", replacement: "\\in", options: "mA"},
 	{trigger: "empty", replacement: "\\emptyset", options: "mA"},
 	{trigger: "sub", replacement: "\\subseteq", options: "mA"},
-	{trigger: "truesub", replacement: "\\subset", options: "mA"},
+	{trigger: "truesub", replacement: "\\subsetneq", options: "mA"},
 	{trigger: "mand", replacement: "\\cap", options: "mA"},
 	{trigger: "mor", replacement: "\\cup", options: "mA"},
 	{trigger: "mxor", replacement: "\\triangle", options: "mA"},
