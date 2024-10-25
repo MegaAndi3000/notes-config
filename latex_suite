@@ -175,7 +175,6 @@
 
 	// Mengen
 
-	{trigger: "adset", replacement: "\\\{${0:x}: ${1:x} \\in ${2:\\mathbb{R}} $3\\\}", options: "mA"},
 	{trigger: "set", replacement: "\\\{$0\\\}", options: "mA"},
 	
     {trigger: /([A-Z])([A-Z])/, replacement: "\\mathbb{[[0]]}", options: "rmA"},
