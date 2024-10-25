@@ -178,14 +178,7 @@
 	{trigger: "adset", replacement: "\\\{${0:x}: ${1:x} \\in ${2:\\mathbb{R}} $3\\\}", options: "mA"},
 	{trigger: "set", replacement: "\\\{$0\\\}", options: "mA"},
 	
-	{trigger: "NN", replacement: "\\mathbb{N}", options: "mA"},
-	{trigger: "RR", replacement: "\\mathbb{R}", options: "mA"},
-	{trigger: "QQ", replacement: "\\mathbb{Q}", options: "mA"},
-	{trigger: "CC", replacement: "\\mathbb{C}", options: "mA"},
-	{trigger: "PP", replacement: "\\mathbb{P}", options: "mA"},
-	{trigger: "ZZ", replacement: "\\mathbb{Z}", options: "mA"},
-	{trigger: "LL", replacement: "\\mathcal{L}", options: "mA"},
-	{trigger: "HH", replacement: "\\mathcal{H}", options: "mA"},
+    {trigger: /([A-Z])([A-Z])/, replacement: "\\mathbb{[[0]]}", options: "rmA"},
 
 	{trigger: "elem", replacement: "\\in ", options: "mA"},
 	{trigger: "empty", replacement: "\\emptyset", options: "mA"},
