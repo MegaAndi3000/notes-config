@@ -208,4 +208,5 @@
 
 	{trigger: "contrad", replacement: "\\unicode{x21af} ", options: "mA"},
 	{trigger: "binom", replacement: "\\binom{$0}{$1}$2", options: "mA"},
+	{trigger: "stack", replacement: "\\stackrel{$0}{$1}$2", options: "mA"},
 ]
