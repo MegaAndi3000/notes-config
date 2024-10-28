@@ -127,6 +127,7 @@
 	{trigger: "C", replacement: "\\cancel{ ${VISUAL} }", options: "mA"},
 	{trigger: "K", replacement: "\\cancelto{ $0 }{ ${VISUAL} }", options: "mA"},
 	{trigger: "S", replacement: "\\sqrt{ ${VISUAL} }", options: "mA"},
+	{trigger: "T", replacement: "\\overset{ $0 }{ ${VISUAL} }", options: "mA"},
 
 
     // Automatically convert text of the form "x=2" and "x=n+1" to math.
