@@ -52,7 +52,6 @@
 	{trigger: "cdot", replacement: "\\cdot", options: "mA"},
 	{trigger: "tilde", replacement: "\\tilde{$0}$1", options: "mA"},
 	{trigger: "und", replacement: "\\underline{$0}$1", options: "mA"},
-	{trigger: "vec", replacement: "\\vec{$0}$1", options: "mA"},
 
 
     // More auto letter subscript
@@ -210,4 +209,10 @@
 	{trigger: "contrad", replacement: "\\unicode{x21af} ", options: "mA"},
 	{trigger: "binom", replacement: "\\binom{$0}{$1}$2", options: "mA"},
 	{trigger: "stack", replacement: "\\stackrel{$0}{$1}$2", options: "mA"},
+
+
+	// LinAl
+
+	{trigger: "vec", replacement: "\\vec{$0}", options: "mA"},
+	{trigger: "vvec", replacement: "\\begin{pmatrix}$0\\end{pmatrix}", options: "mA", priority: 1},
 ]
