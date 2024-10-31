@@ -175,7 +175,7 @@
 
 	// Mengen
 
-	{trigger: "set", replacement: "\\\{$0\\\}", options: "mA"},
+	{trigger: "set", replacement: "\\left\\{$0\\right\\}", options: "mA"},
 	
     {trigger: /m([A-Z])([A-Z])/, replacement: "\\mathbb{[[0]]}", options: "rmA"},
 
