@@ -6,21 +6,21 @@
     caps 
     spc 
     Digit0
-    s d f g j k l Semicolon Slash
+    s d f g h j k l Semicolon Slash
 )
 
 (deflayer default
     @caps 
     spc 
     Digit0
-    s d f g j k l Semicolon Slash
+    s d f g h j k l Semicolon Slash
 )
 
 (deflayer math
     @caps 
     @\ 
     @=
-    @$ @bra @cbra @& ArrowLeft k ArrowRight @^ @_
+    @$ @bra @cbra @& @vert ArrowLeft k ArrowRight @^ @_
 )
 
 (defalias
@@ -33,4 +33,5 @@
     ^ (macro Backquote Backquote)
     _ S-Slash
     = S-Digit0
+    vert RA-IntlBackslash
 )
