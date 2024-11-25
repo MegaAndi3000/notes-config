@@ -1,7 +1,6 @@
 [
 	// Environments
 
-	{trigger: "mk", replacement: "$$0$", options: "tA"},
 	{trigger: "dm", replacement: "$$\n$0\n$$", options: "tAw"},
 	{trigger: "aldm", replacement: "$$\n\\begin{aligned}\n$0\n\\end{aligned}\n$$", options: "tAw"},
 	{trigger: "code", replacement: "```$0\n$1```", options: "tA"},
