@@ -168,6 +168,16 @@
 	{trigger: "gt", replacement: "\\gt ", options: "mA"},
 
 
+	// Arrows
+
+	{trigger: "raw", replacement: "\\rightarrow ", options: "mA"},
+	{trigger: "rraw", replacement: "\\longrightarrow ", options: "mA"},
+	{trigger: "law", replacement: "\\leftarrow ", options: "mA"},
+	{trigger: "llaw", replacement: "\\longleftarrow ", options: "mA"},
+	{trigger: "lraw", replacement: "\\leftrightarrow ", options: "mA"},
+	{trigger: "llrraw", replacement: "\\longleftrightarrow ", options: "mA"},
+
+
 	// Set operations
 
 	{trigger: "set", replacement: "\\left\\{$0\\right\\}", options: "mA"},
