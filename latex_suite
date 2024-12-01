@@ -203,8 +203,8 @@
 
 	{trigger: "nv", replacement: "\\vec{0}", options: "mA"},
 	{trigger: "vec", replacement: "\\vec{$0}", options: "mA"},
-	{trigger: "vvec", replacement: "\\begin{pmatrix}$0\\end{pmatrix}", options: "mA", priority: 1},
-	{trigger: "kmatrix", replacement: "\\left(\\begin{array}{$0}$1\\end{array}\\right)$2", options: "mA"},
+	{trigger: "vvec", replacement: "\\begin{pmatrix} $0 \\end{pmatrix}", options: "mA", priority: 1},
+	{trigger: "kmatrix", replacement: "\\left(\\begin{array}{$0} $1 \\end{array}\\right)$2", options: "mA"},
 
 
 	// MISC
