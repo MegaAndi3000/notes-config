@@ -186,7 +186,7 @@
 	{trigger: /m([A-Z])/, replacement: "\\mathbb{[[0]]}", options: "rmA"},
 
 	{trigger: "elem", replacement: "\\in ", options: "mA"},
-	{trigger: "empty", replacement: "\\emptyset", options: "mA"},
+	{trigger: "empty", replacement: "\\varnothing", options: "mA"},
 	{trigger: "sub", replacement: "\\subseteq", options: "mA"},
 	{trigger: "truesub", replacement: "\\subsetneq", options: "mA"},
 	{trigger: "mand", replacement: "\\cap", options: "mA"},
