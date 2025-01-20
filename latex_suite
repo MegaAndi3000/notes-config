@@ -222,6 +222,12 @@
 	{trigger: "dim", replacement: "\\text{dim}($0)", options: "mA"},
 
 
+	// Calculus
+
+	{trigger: "int", replacement: "\\int $0 d${1:x} $2", options: "mA"},
+	{trigger: "bint", replacement: "\\int_{$0}^{$1} $2 d${3:x} $4", options: "mA"},
+
+
 	// MISC
 
 	{trigger: "contrad", replacement: "\\unicode{x21af} ", options: "mA"},
