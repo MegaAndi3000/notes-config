@@ -183,6 +183,7 @@
 	// Fonts
 
 	{trigger: /m([A-Z])/, replacement: "\\mathbb{[[0]]}", options: "rmA"},
+	{trigger: /c([A-Z])/, replacement: "\\mathcal{[[0]]}", options: "rmA"},
 	{trigger: /f([A-Z])/, replacement: "\\mathfrak{[[0]]}", options: "rmA"},
 
 
