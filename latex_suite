@@ -180,11 +180,15 @@
 	{trigger: "uaw", replacement: "\\uparrow ", options: "mA"},
 
 
+	// Fonts
+
+	{trigger: /m([A-Z])/, replacement: "\\mathbb{[[0]]}", options: "rmA"},
+	{trigger: /f([A-Z])/, replacement: "\\mathfrak{[[0]]}", options: "rmA"},
+
+
 	// Set operations
 
 	{trigger: "set", replacement: "\\set{$0}", options: "mA"},
-
-	{trigger: /m([A-Z])/, replacement: "\\mathbb{[[0]]}", options: "rmA"},
 
 	{trigger: "elem", replacement: "\\in ", options: "mA"},
 	{trigger: "empty", replacement: "\\varnothing", options: "mA"},
