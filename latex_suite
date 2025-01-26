@@ -221,6 +221,10 @@
 	{trigger: "span", replacement: "\\text{span}($0)", options: "mA"},
 	{trigger: "dim", replacement: "\\text{dim}($0)", options: "mA"},
 
+	{trigger: "modg", replacement: "\\stackrel{\\text{mod } $0}{\\equiv} $1", options: "mA"},
+	{trigger: "moda", replacement: "\\stackrel{\\text{mod } $0}{+} $1", options: "mA"},
+	{trigger: "modm", replacement: "\\stackrel{\\text{mod } $0}{\\cdot} $1", options: "mA"},
+
 
 	// Calculus
 
