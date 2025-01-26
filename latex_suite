@@ -182,7 +182,7 @@
 
 	// Set operations
 
-	{trigger: "set", replacement: "\\left\\{$0\\right\\}", options: "mA"},
+	{trigger: "set", replacement: "\\set{$0}", options: "mA"},
 
 	{trigger: /m([A-Z])/, replacement: "\\mathbb{[[0]]}", options: "rmA"},
 
