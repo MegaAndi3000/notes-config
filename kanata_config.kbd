@@ -7,6 +7,7 @@
     spc 
     Digit0
     s d f g h j k l Semicolon Slash
+    m
 )
 
 (deflayer default
@@ -14,13 +15,15 @@
     spc 
     Digit0
     s d f g h j k l Semicolon Slash
+    m
 )
 
 (deflayer math
     @caps 
     @\ 
     @=
-    @$ @bra @cbra @& @vert ArrowLeft k ArrowRight @^ @_
+    @$ @bra @cbra @& @vert ArrowLeft @= ArrowRight @^ @_
+    @abra
 )
 
 (defalias
@@ -28,6 +31,7 @@
     \ RA-Minus
     $ S-Digit4
     bra S-Digit8
+    abra RA-Digit8
     cbra RA-Digit7
     & S-Digit6
     ^ (macro Backquote Backquote)
