@@ -5,25 +5,25 @@
 (defsrc
     caps 
     spc 
-    Digit0
+    Digit0 Minus Digit1
     s d f g h j k l Semicolon Slash
-    m
+    m n
 )
 
 (deflayer default
     @caps 
     spc 
-    Digit0
+    Digit0 Minus Digit1
     s d f g h j k l Semicolon Slash
-    m
+    m n
 )
 
 (deflayer math
     @caps 
     @\ 
-    @=
+    @= @sq @se
     @$ @bra @cbra @& @vert ArrowLeft @= ArrowRight @^ @_
-    @abra
+    @abra @ntilde
 )
 
 (defalias
@@ -38,4 +38,7 @@
     _ S-Slash
     = S-Digit0
     vert RA-IntlBackslash
+    ntilde (unicode ñ)
+    sq (unicode ¿)
+    se (unicode ¡)
 )
