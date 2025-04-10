@@ -160,9 +160,11 @@
 
 	// (In)equations
 
+	{trigger: "eq", replacement: "= ", options: "mA"},
+	{trigger: "def", replacement: ":= ", options: "mA"},
+
 	{trigger: "lt", replacement: "\\lt ", options: "mA"},
 	{trigger: "leq", replacement: "\\leq ", options: "mA"},
-	{trigger: "eq", replacement: "= ", options: "mA"},
 	{trigger: "neq", replacement: "\\neq ", options: "mA"},
 	{trigger: "geq", replacement: "\\geq ", options: "mA"},
 	{trigger: "gt", replacement: "\\gt ", options: "mA"},
