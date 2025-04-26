@@ -174,11 +174,17 @@
 	// Arrows
 
 	{trigger: "raw", replacement: "\\rightarrow ", options: "mA"},
+	{trigger: "Raw", replacement: "\\Rightarrow ", options: "mA"},
 	{trigger: "rraw", replacement: "\\longrightarrow ", options: "mA"},
+	{trigger: "RRaw", replacement: "\\Longrightarrow ", options: "mA"},
 	{trigger: "law", replacement: "\\leftarrow ", options: "mA"},
+	{trigger: "Law", replacement: "\\Leftarrow ", options: "mA"},
 	{trigger: "llaw", replacement: "\\longleftarrow ", options: "mA"},
+	{trigger: "LLaw", replacement: "\\Longleftarrow ", options: "mA"},
 	{trigger: "lraw", replacement: "\\leftrightarrow ", options: "mA"},
+	{trigger: "LRaw", replacement: "\\Leftrightarrow ", options: "mA"},
 	{trigger: "llrraw", replacement: "\\longleftrightarrow ", options: "mA"},
+	{trigger: "LLRRaw", replacement: "\\Longleftrightarrow ", options: "mA"},
 	{trigger: "daw", replacement: "\\downarrow ", options: "mA"},
 	{trigger: "uaw", replacement: "\\uparrow ", options: "mA"},
 
