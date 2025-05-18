@@ -198,7 +198,7 @@
 
 	// Set operations
 
-	{trigger: "set", replacement: "\\set{$0}", options: "mA"},
+	{trigger: "set", replacement: "\\left\\{$0\\right\\}", options: "mA"},
 
 	{trigger: "elem", replacement: "\\in ", options: "mA"},
 	{trigger: "empty", replacement: "\\varnothing", options: "mA"},
