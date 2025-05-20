@@ -83,7 +83,7 @@
 	{trigger: "+-", replacement: "\\pm", options: "mA"},
 	{trigger: "-+", replacement: "\\mp", options: "mA"},
 	{trigger: "...", replacement: "\\dots", options: "mA"},
-	{trigger: /([l,c,v,d])(\.){3}/, replacement: "\\[[0]]dots", options: "rmA"},
+	{trigger: /([cdlv])(\.){3}/, replacement: "\\[[0]]dots", options: "rmA"},
 	{trigger: "not", replacement: "\\not", options: "mA"},
 
 
@@ -232,7 +232,7 @@
 	{trigger: "vvec", replacement: "\\begin{pmatrix} $0 \\end{pmatrix}", options: "mA", priority: 1},
 	{trigger: "kmatrix", replacement: "\\left(\\begin{array}{$0} $1 \\end{array}\\right)$2", options: "mA"},
 
-	{trigger: "span", replacement: "\\text{span}($0)", options: "mA"},
+	{trigger: "span", replacement: "\\text{span}\\{$0\\}", options: "mA"},
 	{trigger: "dim", replacement: "\\text{dim}($0)", options: "mA"},
 
 	{trigger: "modg", replacement: "\\stackrel{\\text{mod } $0}{\\equiv} $1", options: "mA"},
