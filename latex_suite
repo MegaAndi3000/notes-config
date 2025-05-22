@@ -255,4 +255,6 @@
 	{trigger: "stack", replacement: "\\stackrel{$0}{$1}$2", options: "mA"},
 
 	{trigger: "norm", replacement: "\\lvert\\lvert $0 \\rvert\\rvert_{$1}", options: "mA", priority: 1},
+
+	{trigger: "nA", replacement: "%% Neue Seite %%\n<div style=\"page-break-after: always;\"></div>\n\n## Aufgabe ", options: "tA"},
 ]
