@@ -187,6 +187,7 @@
 	{trigger: "LLRRaw", replacement: "\\Longleftrightarrow ", options: "mA"},
 	{trigger: "daw", replacement: "\\downarrow ", options: "mA"},
 	{trigger: "uaw", replacement: "\\uparrow ", options: "mA"},
+	{trigger: "oraw", replacement: "\\overrightarrow{$0} ", options: "mA"},
 
 
 	// Fonts
