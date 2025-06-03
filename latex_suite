@@ -249,7 +249,12 @@
 	// Calculus
 
 	{trigger: "int", replacement: "\\int $0 d${1:x} $2", options: "mA"},
+	{trigger: "iint", replacement: "\\iint_{$0} $1 d${2:x} $3", options: "mA"},
+	{trigger: "iiint", replacement: "\\iiint_{$0} $1 d${2:x} $3", options: "mA"},
+	{trigger: "idint", replacement: "\\idotsint_{$0} $1 d${2:x} $3", options: "mA"},
+	{trigger: "oint", replacement: "\\oint_{$0} $1 d${2:x} $3", options: "mA"},
 	{trigger: "bint", replacement: "\\int_{${0:a}}^{${1:b}} $2 d${3:x} $4", options: "mA"},
+
 	{trigger: "ppar", replacement: "\\frac{\\partial ${0:f}}{\\partial ${1:x}}", options: "mA"},
 	{trigger: "par", replacement: "\\partial", options: "mA"},
 
