@@ -34,7 +34,7 @@
     abra RA-Digit8
     cbra RA-Digit7
     & S-Digit6
-    ^ (macro Backquote Backquote)
+    ^ (macro Backquote spc)
     _ S-Slash
     = S-Digit0
     vert RA-IntlBackslash
