@@ -239,7 +239,7 @@
 	{trigger: /Bild([A-Za-z])/, replacement: "\\mathrm{Bild}_{[[0]]}", options: "rmA"},
 	{trigger: /Kern([A-Za-z])/, replacement: "\\mathrm{Kern}_{[[0]]}", options: "rmA"},
 
-	{trigger: "scpr", replacement: "\\langle$0,$1\\rangle", options: "mA"},
+	{trigger: "scpr", replacement: "\\langle $0,$1 \\rangle $2", options: "mA"},
 
 	{trigger: "modg", replacement: "\\stackrel{\\text{mod } $0}{\\equiv} $1", options: "mA"},
 	{trigger: "moda", replacement: "\\stackrel{\\text{mod } $0}{+} $1", options: "mA"},
